@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Developers_MathEngine_UnitTest (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Developers_MathEngine_UnitTest (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

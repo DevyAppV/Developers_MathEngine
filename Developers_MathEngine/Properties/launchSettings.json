@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Developers_MathEngine (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Developers_MathEngine (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

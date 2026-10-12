@@ -1,0 +1,1 @@
+C:\Users\c1_de\Desktop\Project\Developers_MathEngine[WinUI Vulkan]\Developers_MathEngine\obj\x64\Debug\net10.0-windows10.0.26100.1\win-x64\Developers_MathEngine.csproj.AssemblyReference.cache

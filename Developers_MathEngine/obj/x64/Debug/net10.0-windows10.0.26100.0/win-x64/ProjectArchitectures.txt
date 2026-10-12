@@ -1,0 +1,1 @@
+C:\Users\c1_de\Desktop\Project\Developers_MathEngine[WinUI Vulkan]\Developers_MathEngine\Developers_MathEngine.csproj;x64

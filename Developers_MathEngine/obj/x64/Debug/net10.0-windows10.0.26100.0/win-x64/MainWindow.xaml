@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Developers_MathEngine.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Developers_MathEngine"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:controls="using:CommunityToolkit.WinUI.Controls"
+    mc:Ignorable="d"
+    Title="Developers_MathEngine">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop />
+    </Window.SystemBackdrop>
+
+    <Grid  HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <!--Menu-->
+            <RowDefinition Height="auto"></RowDefinition>
+            <!--Preset Tab-->
+            <RowDefinition Height="auto"></RowDefinition>
+            <!--NavigationFrame-->
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" VerticalAlignment="Top"></StackPanel>
+
+        <ScrollViewer Grid.Row="1" VerticalAlignment="Top">
+            <StackPanel Orientation="Horizontal">
+                <Button x:ConnectionId='3' x:Name="NewWindow_Button" Content="New Window"                               ></Button>
+                <Button x:ConnectionId='4' x:Name="PresetFormula_Button" Content="Formula"                                   ></Button>
+                <!--<Button x:Name="PresetGraphing_Button" Content="Graphing"></Button>-->
+                <!--<Button x:Name="PresetUnitCircle_Button" Content="Unit Circle"></Button>-->
+            </StackPanel>
+        </ScrollViewer>
+
+        
+        
+        <Grid Grid.Row="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Frame x:ConnectionId='2' x:Name="PageViewer_Frame"                       HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+            </Frame>
+        </Grid>
+        
+    </Grid>
+</Window>
+

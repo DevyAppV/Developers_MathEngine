@@ -1,0 +1,20 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="../Developers_MathEngine_Library/Developers_MathEngine_Library.csproj" Id="b5c698ad-f3c7-4e8e-b473-1d08f0eb504c" />
+  <Project Path="../Developers_MathEngine_UnitTest/Developers_MathEngine_UnitTest.csproj">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+    <Deploy />
+  </Project>
+  <Project Path="Developers_MathEngine.csproj">
+    <Platform Solution="*|ARM64" Project="ARM64" />
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+    <Deploy />
+  </Project>
+</Solution>

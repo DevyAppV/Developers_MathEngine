@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Developers_MathEngine.View.Template_View.MainTemplate_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Developers_MathEngine.View.Template_View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:CommunityToolkit.WinUI.Controls"
+    mc:Ignorable="d">
+
+    <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <!--Menu-->
+            <RowDefinition Height="auto"></RowDefinition>
+            <!--Preset dropdown Menu-->
+            <RowDefinition Height="auto"></RowDefinition>
+            <!--Modification Grid-->
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--<Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>-->
+
+        <!--<controls:GridSplitter Grid.Column="0"></controls:GridSplitter>-->
+        <Grid x:ConnectionId='2' x:FieldModifier="public" x:Name="Modification_Grid" Grid.Row="2"></Grid>
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,14 @@
+App.xbf
+MainWindow.xbf
+View\Data Spreadsheet\DataSpreadsheet_Page.xbf
+View\Data Spreadsheet\UnitBaseSpreadsheet_Page.xbf
+View\Data Spreadsheet\UnitPrefixSpreadsheet_Page.xbf
+View\Formula\CustomButtons_Page.xbf
+View\Formula\CustomButtonsDescription_Page.xbf
+View\Formula\FormulaList_Page.xbf
+View\Formula\FormulaProjectList_Page.xbf
+View\Formula\VisualNotes_Page.xbf
+View\Math Solution\MathSolutions_Page.xbf
+View\Menu\MainMenu_Page.xbf
+View\Menu\SecondaryMenu_Page.xbf
+View\Template View\MainTemplate_Page.xbf

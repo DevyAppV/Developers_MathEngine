@@ -1,0 +1,478 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\templates\\presets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:templates\\presets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\template view\\maintemplate_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\template view\\maintemplate_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\template view\\maintemplate_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\template view\\maintemplate_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\formula\\formulaprojectlist_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\formula\\formulaprojectlist_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\formula\\formulalist_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\formula\\formulalist_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\formula\\visualnotes_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\formula\\visualnotes_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\formula\\custombuttons_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\formula\\custombuttons_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\formula\\formulalist_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\formula\\formulalist_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\formula\\custombuttons_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\formula\\custombuttons_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\formula\\visualnotes_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\formula\\visualnotes_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\formula\\custombuttonsdescription_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\formula\\custombuttonsdescription_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\formula\\formulaprojectlist_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\formula\\formulaprojectlist_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\menu\\secondarymenu_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\menu\\secondarymenu_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\data spreadsheet\\unitprefixspreadsheet_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\data spreadsheet\\unitprefixspreadsheet_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\menu\\secondarymenu_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\menu\\secondarymenu_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\menu\\mainmenu_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\menu\\mainmenu_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\menu\\mainmenu_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\menu\\mainmenu_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\math solution\\mathsolutions_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\math solution\\mathsolutions_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\math solution\\mathsolutions_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\math solution\\mathsolutions_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\data spreadsheet\\unitprefixspreadsheet_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\data spreadsheet\\unitprefixspreadsheet_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\data spreadsheet\\unitbasespreadsheet_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\data spreadsheet\\unitbasespreadsheet_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\data spreadsheet\\unitbasespreadsheet_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\data spreadsheet\\unitbasespreadsheet_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\data spreadsheet\\dataspreadsheet_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\data spreadsheet\\dataspreadsheet_page.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\view\\data spreadsheet\\dataspreadsheet_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:view\\data spreadsheet\\dataspreadsheet_page.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|c:\\users\\c1_de\\desktop\\project\\developers_mathengine[winui vulkan]\\developers_mathengine\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{371F94CD-E6D8-30D6-8E84-C8BA02C4FAC7}|Developers_MathEngine.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA4wC8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T03:00:34.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAMwCgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T13:52:02.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainTemplate_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Template View\\MainTemplate_Page.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Template View\\MainTemplate_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Template View\\MainTemplate_Page.xaml.cs",
+              "RelativeToolTip": "View\\Template View\\MainTemplate_Page.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T09:47:42.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormulaProjectList_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\FormulaProjectList_Page.xaml",
+              "RelativeDocumentMoniker": "View\\Formula\\FormulaProjectList_Page.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\FormulaProjectList_Page.xaml",
+              "RelativeToolTip": "View\\Formula\\FormulaProjectList_Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T09:44:25.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Presets.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\Templates\\Presets.cs",
+              "RelativeDocumentMoniker": "Templates\\Presets.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\Templates\\Presets.cs",
+              "RelativeToolTip": "Templates\\Presets.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAqwFgAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T10:51:57.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-01T13:52:14.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormulaList_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\FormulaList_Page.xaml",
+              "RelativeDocumentMoniker": "View\\Formula\\FormulaList_Page.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\FormulaList_Page.xaml",
+              "RelativeToolTip": "View\\Formula\\FormulaList_Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T09:44:10.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainTemplate_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Template View\\MainTemplate_Page.xaml",
+              "RelativeDocumentMoniker": "View\\Template View\\MainTemplate_Page.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Template View\\MainTemplate_Page.xaml",
+              "RelativeToolTip": "View\\Template View\\MainTemplate_Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T09:47:02.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomButtons_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\CustomButtons_Page.xaml",
+              "RelativeDocumentMoniker": "View\\Formula\\CustomButtons_Page.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\CustomButtons_Page.xaml",
+              "RelativeToolTip": "View\\Formula\\CustomButtons_Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T09:44:00.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VisualNotes_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\VisualNotes_Page.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Formula\\VisualNotes_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\VisualNotes_Page.xaml.cs",
+              "RelativeToolTip": "View\\Formula\\VisualNotes_Page.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T09:44:43.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomButtons_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\CustomButtons_Page.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Formula\\CustomButtons_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\CustomButtons_Page.xaml.cs",
+              "RelativeToolTip": "View\\Formula\\CustomButtons_Page.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T09:44:05.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormulaList_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\FormulaList_Page.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Formula\\FormulaList_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\FormulaList_Page.xaml.cs",
+              "RelativeToolTip": "View\\Formula\\FormulaList_Page.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T09:44:17.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VisualNotes_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\VisualNotes_Page.xaml",
+              "RelativeDocumentMoniker": "View\\Formula\\VisualNotes_Page.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\VisualNotes_Page.xaml",
+              "RelativeToolTip": "View\\Formula\\VisualNotes_Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T09:44:38.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomButtonsDescription_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\CustomButtonsDescription_Page.xaml",
+              "RelativeDocumentMoniker": "View\\Formula\\CustomButtonsDescription_Page.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\CustomButtonsDescription_Page.xaml",
+              "RelativeToolTip": "View\\Formula\\CustomButtonsDescription_Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T10:08:46.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormulaProjectList_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\FormulaProjectList_Page.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Formula\\FormulaProjectList_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Formula\\FormulaProjectList_Page.xaml.cs",
+              "RelativeToolTip": "View\\Formula\\FormulaProjectList_Page.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T09:44:30.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SecondaryMenu_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Menu\\SecondaryMenu_Page.xaml",
+              "RelativeDocumentMoniker": "View\\Menu\\SecondaryMenu_Page.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Menu\\SecondaryMenu_Page.xaml",
+              "RelativeToolTip": "View\\Menu\\SecondaryMenu_Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T09:45:20.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UnitPrefixSpreadsheet_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Data Spreadsheet\\UnitPrefixSpreadsheet_Page.xaml",
+              "RelativeDocumentMoniker": "View\\Data Spreadsheet\\UnitPrefixSpreadsheet_Page.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Data Spreadsheet\\UnitPrefixSpreadsheet_Page.xaml",
+              "RelativeToolTip": "View\\Data Spreadsheet\\UnitPrefixSpreadsheet_Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T09:43:48.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SecondaryMenu_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Menu\\SecondaryMenu_Page.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Menu\\SecondaryMenu_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Menu\\SecondaryMenu_Page.xaml.cs",
+              "RelativeToolTip": "View\\Menu\\SecondaryMenu_Page.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T09:45:25.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainMenu_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Menu\\MainMenu_Page.xaml",
+              "RelativeDocumentMoniker": "View\\Menu\\MainMenu_Page.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Menu\\MainMenu_Page.xaml",
+              "RelativeToolTip": "View\\Menu\\MainMenu_Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T09:45:07.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainMenu_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Menu\\MainMenu_Page.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Menu\\MainMenu_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Menu\\MainMenu_Page.xaml.cs",
+              "RelativeToolTip": "View\\Menu\\MainMenu_Page.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T09:45:09.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MathSolutions_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Math Solution\\MathSolutions_Page.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Math Solution\\MathSolutions_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Math Solution\\MathSolutions_Page.xaml.cs",
+              "RelativeToolTip": "View\\Math Solution\\MathSolutions_Page.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T09:44:59.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MathSolutions_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Math Solution\\MathSolutions_Page.xaml",
+              "RelativeDocumentMoniker": "View\\Math Solution\\MathSolutions_Page.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Math Solution\\MathSolutions_Page.xaml",
+              "RelativeToolTip": "View\\Math Solution\\MathSolutions_Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T09:44:53.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UnitPrefixSpreadsheet_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Data Spreadsheet\\UnitPrefixSpreadsheet_Page.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Data Spreadsheet\\UnitPrefixSpreadsheet_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Data Spreadsheet\\UnitPrefixSpreadsheet_Page.xaml.cs",
+              "RelativeToolTip": "View\\Data Spreadsheet\\UnitPrefixSpreadsheet_Page.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T09:43:53.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UnitBaseSpreadsheet_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Data Spreadsheet\\UnitBaseSpreadsheet_Page.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Data Spreadsheet\\UnitBaseSpreadsheet_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Data Spreadsheet\\UnitBaseSpreadsheet_Page.xaml.cs",
+              "RelativeToolTip": "View\\Data Spreadsheet\\UnitBaseSpreadsheet_Page.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T09:43:44.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UnitBaseSpreadsheet_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Data Spreadsheet\\UnitBaseSpreadsheet_Page.xaml",
+              "RelativeDocumentMoniker": "View\\Data Spreadsheet\\UnitBaseSpreadsheet_Page.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Data Spreadsheet\\UnitBaseSpreadsheet_Page.xaml",
+              "RelativeToolTip": "View\\Data Spreadsheet\\UnitBaseSpreadsheet_Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T09:43:37.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DataSpreadsheet_Page.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Data Spreadsheet\\DataSpreadsheet_Page.xaml.cs",
+              "RelativeDocumentMoniker": "View\\Data Spreadsheet\\DataSpreadsheet_Page.xaml.cs",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Data Spreadsheet\\DataSpreadsheet_Page.xaml.cs",
+              "RelativeToolTip": "View\\Data Spreadsheet\\DataSpreadsheet_Page.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T09:43:17.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DataSpreadsheet_Page.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Data Spreadsheet\\DataSpreadsheet_Page.xaml",
+              "RelativeDocumentMoniker": "View\\Data Spreadsheet\\DataSpreadsheet_Page.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\View\\Data Spreadsheet\\DataSpreadsheet_Page.xaml",
+              "RelativeToolTip": "View\\Data Spreadsheet\\DataSpreadsheet_Page.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-02T09:41:38.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\c1_de\\Desktop\\Project\\Developers_MathEngine[WinUI Vulkan]\\Developers_MathEngine\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-01T14:39:08.437Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
