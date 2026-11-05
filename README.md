@@ -1,17 +1,17 @@
 <H1><b>Note:  This repository will no longer be updated.  The engine will be released in the Microsoft store within one to two months.
 The code in this repository contains mathematical errors which are fixed in the released application.</b></H1>
 <aside>Side Note:  If you purchased the application and find that it is helpful or makes your job easier, please share it.  It's hard to reach out to the right audience, so it would be very helpful, thanks.</aside>
-<p><aside>Use Detail:  
+<p><aside><b>Use Detail:</b>  
   You do not have to be a C# programmer to use the app, but knowing C# is an effective way to create, discover, and program formulas that does not yet exist in the application. 
   Without C# programming, you can use the default buttons or create new buttons from the default buttons.  Or if you're a mathematician, you can even ask a programmer to develop math buttons for you.
   The application will have an APIs documentation which I will post on my site for programmers.  I will release the site will be in the store's detail page.
 </aside></p>
 <p><aside>
-  For C# programmers: If you work for a company that requires you to program a lot of math, I would recommend this calculator.  It shows you all the variables you need to create the formula.  Also, you can prototype 
+  <b>For C# programmers:</b> If you work for a company that requires you to program a lot of math, I would recommend this calculator.  It shows you all the variables you need to create the formula.  Also, you can prototype 
   the creation of a formulas more easily (without waiting for the debugger).
 </aside></p>
 <p><aside>
-  Bugs:  Be careful of possible bugs.  May produce math errors.  I will try to start a support channel in the future, or post it on YouTube channel's description.
+  <b>Bugs:</b>  Be careful of possible bugs.  May produce math errors.  I will try to start a support channel in the future, or post it on YouTube channel's description.
 </aside></p>
 
 <H1>Developer's Math Engine (C#, WinUI)</H1>
