@@ -1,6 +1,6 @@
 <H1><b>Note:  This repository will no longer be updated.  The engine will be released in the Microsoft store within one to two months.
 The code in this repository contains mathematical errors which are fixed in the released application.</b></H1>
-<aside>Side Note:  If you purchased the application and find that it is helpful or makes your job easier, please share it.  It's hard to reach out to the right audience, so it would be very helpful, thanks.</aside>
+<p><aside><b>Side Note:</b>  If you purchased the application and find that it is helpful or makes your job easier, please share it.  It's hard to reach out to the right audience, so it would be very helpful, thanks.</aside></p>
 <p><aside><b>Use Detail:</b>  
   You do not have to be a C# programmer to use the app, but knowing C# is an effective way to create, discover, and program formulas that does not yet exist in the application. 
   Without C# programming, you can use the default buttons or create new buttons from the default buttons.  Or if you're a mathematician, you can even ask a programmer to develop math buttons for you.
