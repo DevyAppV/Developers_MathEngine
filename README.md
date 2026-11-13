@@ -1,3 +1,7 @@
+<H1>The developer's math engine is now available in the Microsoft Store</H1>
+<a href="ms-windows-store://pdp/?productid=9MVR48XJT3J8">MS Store App</a>
+<a href="https://apps.microsoft.com/detail/9MVR48XJT3J8">Store URL</a>
+
 <H1><b>Note:  This repository will no longer be updated.  The engine will be released in the Microsoft store within one to two months.
 The code in this repository contains mathematical errors which are fixed in the released application.</b></H1>
 <p><aside><b>Side Note:</b>  If you purchased the application and find that it is helpful or makes your job easier, please share it.  It's hard to reach out to the right audience, so it would be very helpful, thanks.</aside></p>
