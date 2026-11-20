@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Developers_MathEngine_MVVM.View.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Developers_MathEngine_MVVM.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Developer's Math Engine"
+    Activated="MainWindow_Activated">
+
+    <Window.SystemBackdrop>
+        <MicaBackdrop />
+    </Window.SystemBackdrop>
+
+    <Grid Margin="7" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+        <Grid.Resources>
+            <!--<Style TargetType="TextBlock" BasedOn="{StaticResource TextBlock_DefaultFormat_Theme}"></Style>-->
+            <Style TargetType="Button" BasedOn="{StaticResource Button_DefaultFormat_Theme}"></Style>
+            <!--<Style TargetType="ScrollViewer" BasedOn="{StaticResource ScrollViewer_DefaultFormat_Theme}"></Style>-->
+            <!--<Style TargetType="StackPanel" BasedOn="{StaticResource StackPanel_DefaultFormat_Theme}"></Style>-->
+            <!--<Style TargetType="Controls:WrapPanel" BasedOn="{StaticResource WrapPanel_DefaultFormat_Theme}"></Style>-->
+            <!--<Style TargetType="TextBox" BasedOn="{StaticResource TextBox_DefaultFormat_Theme}"></Style>-->
+            <!--<Style TargetType="Border" BasedOn="{StaticResource Border_DefaultFormat_Theme}"></Style>-->
+
+        </Grid.Resources>
+        
+        <Grid.RowDefinitions>
+            <!--Menu-->
+            <RowDefinition Height="auto"></RowDefinition>
+            <!--Template Tab-->
+            <RowDefinition Height="auto"></RowDefinition>
+            <!--NavigationFrame-->
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" VerticalAlignment="Top" Orientation="Horizontal">
+
+            <Button Content="File">
+                <Button.Flyout>
+                    <MenuBarItemFlyout>
+                        <MenuFlyoutItem Text="Save" Command="{x:Bind mainWindow_ViewModel.saveFileCommand, Mode=OneWay}"></MenuFlyoutItem>
+                        <MenuFlyoutItem Text="Load" Command="{x:Bind mainWindow_ViewModel.loadFileCommand, Mode=OneWay}"></MenuFlyoutItem>
+                        <!--<MenuFlyoutItem Text="Append"></MenuFlyoutItem>-->
+                    </MenuBarItemFlyout>
+                </Button.Flyout>
+            </Button>
+        </StackPanel>
+
+        <ScrollViewer Grid.Row="1" VerticalAlignment="Top">
+            <StackPanel Orientation="Horizontal">
+                <Button x:Name="NewWindow_Button" Content="New Window" Click="NewWindow_Button_Click"></Button>
+                <Button x:Name="Preset_Formula_Button" Content="Formula" Click="Preset_Formula_Button_Click"></Button>
+                <!--<Button x:Name="PresetGraphing_Button" Content="Graphing"></Button>-->
+                <!--<Button x:Name="PresetUnitCircle_Button" Content="Unit Circle"></Button>-->
+            </StackPanel>
+        </ScrollViewer>
+
+
+
+        <Grid Grid.Row="2" Margin="2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <Frame x:FieldModifier="public" x:Name="PageViewer_Frame" Loaded="PageViewer_Frame_Loaded" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+            </Frame>
+        </Grid>
+
+    </Grid>
+</Window>

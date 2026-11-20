@@ -19,20 +19,6 @@
     <None Remove="Interpreter\**" />
     <Page Remove="Interpreter\**" />
   </ItemGroup>
-  <ItemGroup>
-    <None Remove="View\Data Spreadsheet\DataSpreadsheet_Page.xaml" />
-    <None Remove="View\Data Spreadsheet\UnitBaseSpreadsheet_Page.xaml" />
-    <None Remove="View\Data Spreadsheet\UnitPrefixSpreadsheet_Page.xaml" />
-    <None Remove="View\Formula\CustomButtonsDescription_Page.xaml" />
-    <None Remove="View\Formula\CustomButtons_Page.xaml" />
-    <None Remove="View\Formula\FormulaList_Page.xaml" />
-    <None Remove="View\Formula\FormulaProjectList_Page.xaml" />
-    <None Remove="View\Formula\VisualNotes_Page.xaml" />
-    <None Remove="View\Math Solution\MathSolutions_Page.xaml" />
-    <None Remove="View\Menu\MainMenu_Page.xaml" />
-    <None Remove="View\Menu\SecondaryMenu_Page.xaml" />
-    <None Remove="View\Template View\MainTemplate_Page.xaml" />
-  </ItemGroup>
 
   <ItemGroup>
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -57,74 +43,10 @@
     <ProjectCapability Include="Msix" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
     <PackageReference Include="CommunityToolkit.WinUI.Controls.Primitives" Version="8.2.251219" />
     <PackageReference Include="CommunityToolkit.WinUI.Controls.Sizers" Version="8.2.251219" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.12" />
-    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.28000.2526" />
-    <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.3.1" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="Theme\" />
-    <Folder Include="Utilties\" />
-    <Folder Include="View\Graph\" />
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="ViewModel\Template View\FormulaTemplate_Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="ViewModel\Menu\SecondaryMenu_Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="ViewModel\Menu\MainMenu_Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="ViewModel\Math Solution\MathSolutions_Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="ViewModel\Formula\VisualNotes_Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="ViewModel\Formula\FormulaProjectList_Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="ViewModel\Formula\FormulaList_Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="ViewModel\Formula\CustomButtons_Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="ViewModel\Data Spreadsheet\UnitPrefixSpreadsheet_Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="ViewModel\Data Spreadsheet\DataSpreadsheet_Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="ViewModel\Data Spreadsheet\UnitBaseSpreadsheet_Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.28000.2705" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.5.1" />
   </ItemGroup>
 
   <!--
@@ -141,20 +63,204 @@
     <PublishReadyToRun Condition="'$(Configuration)' == 'Debug'">False</PublishReadyToRun>
     <PublishReadyToRun Condition="'$(Configuration)' != 'Debug'">True</PublishReadyToRun>
     <PublishTrimmed Condition="'$(Configuration)' == 'Debug'">False</PublishTrimmed>
-    <PublishTrimmed Condition="'$(Configuration)' != 'Debug'">True</PublishTrimmed>
+    <PublishTrimmed Condition="'$(Configuration)' != 'Debug'">False</PublishTrimmed>
     <SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+    <GenerateTemporaryStoreCertificate>True</GenerateTemporaryStoreCertificate>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppxPackageSigningEnabled>False</AppxPackageSigningEnabled>
+    <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
+    <GenerateTestArtifacts>False</GenerateTestArtifacts>
+    <AppxBundle>Never</AppxBundle>
+    <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <Optimize>False</Optimize>
   </PropertyGroup>
   <ItemGroup>
     <PRIResource Remove="Interpreter\**" />
   </ItemGroup>
   <ItemGroup>
-    <Page Update="View\Formula\CustomButtonsDescription_Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    <None Remove="Assets\Visual Assets Generated\SplashScreen.scale-100.png" />
+    <None Remove="Assets\Visual Assets Generated\SplashScreen.scale-125.png" />
+    <None Remove="Assets\Visual Assets Generated\SplashScreen.scale-150.png" />
+    <None Remove="Assets\Visual Assets Generated\SplashScreen.scale-200.png" />
+    <None Remove="Assets\Visual Assets Generated\SplashScreen.scale-400.png" />
   </ItemGroup>
   <ItemGroup>
-    <Page Update="View\Template View\MainTemplate_Page.xaml">
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
+    <ProjectReference Include="..\Developers_MathEngine_MVVM\Developers_MathEngine_MVVM.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Assets\Visual Assets Generated\SplashScreen.scale-100.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Visual Assets Generated\SplashScreen.scale-125.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Visual Assets Generated\SplashScreen.scale-150.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Visual Assets Generated\SplashScreen.scale-200.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Update="Assets\Visual Assets Generated\SplashScreen.scale-400.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Assets\Visual Assets Generated\LargeTile.scale-100.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\LargeTile.scale-125.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\LargeTile.scale-150.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\LargeTile.scale-200.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\LargeTile.scale-400.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\SmallTile.scale-100.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\SmallTile.scale-125.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\SmallTile.scale-150.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\SmallTile.scale-200.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\SmallTile.scale-400.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square150x150Logo.scale-100.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square150x150Logo.scale-125.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square150x150Logo.scale-150.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square150x150Logo.scale-200.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square150x150Logo.scale-400.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.altform-unplated_targetsize-24.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.scale-100.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.scale-125.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.scale-150.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.scale-200.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.scale-400.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.targetsize-16.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.targetsize-24.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.targetsize-256.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.targetsize-32.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Square44x44Logo.targetsize-48.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\StoreLogo.scale-100.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\StoreLogo.scale-125.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\StoreLogo.scale-150.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\StoreLogo.scale-200.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\StoreLogo.scale-400.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Wide310x150Logo.scale-100.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Wide310x150Logo.scale-125.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Wide310x150Logo.scale-150.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Wide310x150Logo.scale-200.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Assets\Visual Assets Generated\Wide310x150Logo.scale-400.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Visual Assets\CV-Image.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>

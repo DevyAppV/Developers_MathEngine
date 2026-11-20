@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="Developers_MathEngine_MVVM.View.Formula.Formula_Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Developers_MathEngine_MVVM.View.Formula"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="using:CommunityToolkit.WinUI.Controls"
+    xmlns:ProjectModel ="using:Developers_MathEngine_MVVM.Model.Project"
+    xmlns:FormulaModel ="using:Developers_MathEngine_MVVM.Model.Formula"
+    mc:Ignorable="d">
+
+
+
+    <Grid>
+
+        <Grid.Resources>
+            <Style TargetType="TextBlock" BasedOn="{StaticResource TextBlock_DefaultFormat_Theme}"></Style>
+            <Style TargetType="Button" BasedOn="{StaticResource Button_DefaultFormat_Theme}"></Style>
+            <Style TargetType="ScrollViewer" BasedOn="{StaticResource ScrollViewer_DefaultFormat_Theme}"></Style>
+            <Style TargetType="StackPanel" BasedOn="{StaticResource StackPanel_DefaultFormat_Theme}"></Style>
+            <Style TargetType="Controls:WrapPanel" BasedOn="{StaticResource WrapPanel_DefaultFormat_Theme}"></Style>
+            <Style TargetType="TextBox" BasedOn="{StaticResource TextBox_DefaultFormat_Theme}"></Style>
+            <Style TargetType="Border" BasedOn="{StaticResource Border_DefaultFormat_Theme}"></Style>
+
+        </Grid.Resources>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="{x:Bind formula_ViewModel.formulaProjectName, Mode=OneWay}"></TextBlock>
+        <Controls:WrapPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Add" Command="{x:Bind formula_ViewModel.addFormulaCommand, Mode=OneWay}"></Button>
+            <Button Content="Clear" Command="{x:Bind formula_ViewModel.clearFormulaListCommand, Mode=OneWay}"></Button>
+        </Controls:WrapPanel>
+
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
+            <StackPanel Orientation="Vertical">
+                <ItemsControl x:Name="FormulaList_ItemsControl" ItemsSource="{x:Bind formula_ViewModel.formulaListDisplay_Collection, Mode=OneWay}" DataContext="{x:Bind formula_ViewModel, Mode=OneWay}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate x:DataType="FormulaModel:Formula">
+                            <StackPanel Orientation="Vertical">
+
+                                <StackPanel.Resources>
+                                    <Style TargetType="TextBlock" BasedOn="{StaticResource TextBlock_DefaultFormat_Theme}"></Style>
+                                    <Style TargetType="Button" BasedOn="{StaticResource Button_DefaultFormat_Theme}"></Style>
+                                    <Style TargetType="ScrollViewer" BasedOn="{StaticResource ScrollViewer_DefaultFormat_Theme}"></Style>
+                                    <Style TargetType="StackPanel" BasedOn="{StaticResource StackPanel_DefaultFormat_Theme}"></Style>
+                                    <Style TargetType="Controls:WrapPanel" BasedOn="{StaticResource WrapPanel_DefaultFormat_Theme}"></Style>
+                                    <Style TargetType="Border" BasedOn="{StaticResource Border_DefaultFormat_Theme}"></Style>
+                                    <Style TargetType="TextBox" BasedOn="{StaticResource TextBox_DefaultFormat_Theme}"></Style>
+                                </StackPanel.Resources>
+                                <Grid Height="5">
+
+                                </Grid>
+
+                                <StackPanel Orientation="Vertical">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto"></ColumnDefinition>
+                                            <ColumnDefinition Width="auto"></ColumnDefinition>
+                                            <ColumnDefinition Width="*"></ColumnDefinition>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Border Grid.Column="0">
+                                            <TextBlock Text="{x:Bind FormulaIndex, Mode=OneWay}" ></TextBlock>
+                                        </Border>
+                                        <Button Grid.Column="1" Content="X" Command="{Binding ElementName=FormulaList_ItemsControl, Path=DataContext.deleteFormulaCommand}" CommandParameter="{Binding}"></Button>
+
+                                        <Button Grid.Column="2" Content="{x:Bind FormulaName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" x:Name="Expand_FormulaSection" Command="{Binding ElementName=FormulaList_ItemsControl,Path=DataContext.expandFormulaSectionCommand}" CommandParameter="{Binding ElementName=FormulaSection}"></Button>
+
+                                    </Grid>
+                                    <StackPanel x:Name="FormulaSection" Orientation="Vertical" Visibility="Collapsed">
+                                        <Controls:WrapPanel Orientation="Horizontal">
+                                            <Button Content="Get Variables" Command="{Binding ElementName=FormulaList_ItemsControl, Path=DataContext.getVariableCommand}" CommandParameter="{x:Bind}"></Button>
+                                            <Button Content="Solve" Command="{Binding ElementName=FormulaList_ItemsControl, Path=DataContext.solveCommand}" CommandParameter="{x:Bind}"></Button>
+                                            <Button Content="Create Button" Command="{Binding ElementName=FormulaList_ItemsControl, Path=DataContext.createCustomButtonCommand}" CommandParameter="{x:Bind}"></Button>
+                                        </Controls:WrapPanel>
+                                        <Controls:WrapPanel>
+                                            <Button Content="Quick Solve" Command="{Binding ElementName=FormulaList_ItemsControl, Path=DataContext.quickSolveFormulaCommand}" CommandParameter="{x:Bind}"></Button>
+                                        </Controls:WrapPanel>
+
+                                        <StackPanel Orientation="Vertical">
+                                            <TextBox x:Name="FormulaName_Textbox" PreviewKeyDown="TabKeyDown_Textbox_PreviewKeyDown" BringIntoViewRequested="Textbox_BringIntoViewRequested" Text="{x:Bind FormulaName,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" PlaceholderText="Formula Name" AcceptsReturn="False" IsSpellCheckEnabled="False"></TextBox>
+                                            <TextBox x:Name="VariableExecScript_Textbox" PreviewKeyDown="TabKeyDown_Textbox_PreviewKeyDown" BringIntoViewRequested="Textbox_BringIntoViewRequested" Tag="{x:Bind}" Text="{x:Bind VariableExec_Script.Script,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" LosingFocus="TextBox_LosingFocus" PlaceholderText="Variable" AcceptsReturn="True" IsSpellCheckEnabled="False"></TextBox>
+                                            <TextBox x:Name="FormulaExecScript_Textbox" PreviewKeyDown="TabKeyDown_Textbox_PreviewKeyDown" BringIntoViewRequested="Textbox_BringIntoViewRequested" Tag="{x:Bind}" Text="{x:Bind FormulaExec_Script.Script,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" LosingFocus="TextBox_LosingFocus" PlaceholderText="Formula" AcceptsReturn="True" IsSpellCheckEnabled="False"></TextBox>
+                                            <TextBox x:Name="Solution_Textbox" PreviewKeyDown="TabKeyDown_Textbox_PreviewKeyDown" BringIntoViewRequested="Textbox_BringIntoViewRequested" Tag="{x:Bind}" Text="{x:Bind Solution,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" LosingFocus="TextBox_LosingFocus" PlaceholderText="Solution" AcceptsReturn="True" IsSpellCheckEnabled="False"></TextBox>
+                                            <TextBox x:Name="Description_Textbox" PreviewKeyDown="TabKeyDown_Textbox_PreviewKeyDown" BringIntoViewRequested="Textbox_BringIntoViewRequested" Tag="{x:Bind}" Text="{x:Bind Description,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" LosingFocus="TextBox_LosingFocus" PlaceholderText="Description" AcceptsReturn="True" IsSpellCheckEnabled="False"></TextBox>
+                                        </StackPanel>
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="auto"></RowDefinition>
+                                                <RowDefinition Height="auto"></RowDefinition>
+                                                <RowDefinition Height="*"></RowDefinition>
+                                            </Grid.RowDefinitions>
+                                            <TextBlock Grid.Row="0" Text="Rules:"></TextBlock>
+                                            <Controls:WrapPanel Grid.Row="1" Orientation="Horizontal">
+                                                <Button Content="Add Rules" Command="{Binding ElementName=FormulaList_ItemsControl, Path=DataContext.addRuleCommand}" CommandParameter="{x:Bind}"></Button>
+                                                <Button Content="Clear Rules" Command="{Binding ElementName=FormulaList_ItemsControl, Path=DataContext.clearRuleCommand}" CommandParameter="{x:Bind}"></Button>
+                                            </Controls:WrapPanel>
+                                            <StackPanel Grid.Row="2" Orientation="Vertical">
+                                                <ItemsControl ItemsSource="{x:Bind Rules_Collection, Mode=OneWay}">
+                                                    <ItemsControl.ItemTemplate>
+                                                        <DataTemplate x:DataType="FormulaModel:Rule">
+                                                            <Grid>
+                                                                <Grid.Resources>
+                                                                    <Style TargetType="TextBlock" BasedOn="{StaticResource TextBlock_DefaultFormat_Theme}"></Style>
+                                                                    <Style TargetType="Button" BasedOn="{StaticResource Button_DefaultFormat_Theme}"></Style>
+                                                                    <Style TargetType="ScrollViewer" BasedOn="{StaticResource ScrollViewer_DefaultFormat_Theme}"></Style>
+                                                                    <Style TargetType="StackPanel" BasedOn="{StaticResource StackPanel_DefaultFormat_Theme}"></Style>
+                                                                    <Style TargetType="Controls:WrapPanel" BasedOn="{StaticResource WrapPanel_DefaultFormat_Theme}"></Style>
+                                                                    <Style TargetType="Border" BasedOn="{StaticResource Border_DefaultFormat_Theme}"></Style>
+
+                                                                    <Style TargetType="TextBox" BasedOn="{StaticResource TextBox_DefaultFormat_Theme}"></Style>
+                                                                </Grid.Resources>
+                                                                <Grid.ColumnDefinitions>
+                                                                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                                                </Grid.ColumnDefinitions>
+                                                                <Border Grid.Column="0">
+                                                                    <TextBlock Text="{x:Bind ruleIndex,Mode=OneWay}"></TextBlock>
+                                                                </Border>
+                                                                <Button Grid.Column="1" Content="X" Command="{Binding ElementName=FormulaList_ItemsControl, Path=DataContext.deleteRuleCommand}" CommandParameter="{x:Bind}"></Button>
+                                                                <TextBox x:Name="Rules_Textbox" PreviewKeyDown="TabKeyDown_Textbox_PreviewKeyDown" BringIntoViewRequested="Textbox_BringIntoViewRequested" Tag="{x:Bind}" Grid.Column="2" Text="{x:Bind codeRule, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" LosingFocus="TextBox_LosingFocus" PlaceholderText="Rules" AcceptsReturn="True" IsSpellCheckEnabled="False"></TextBox>
+                                                            </Grid>
+                                                        </DataTemplate>
+                                                    </ItemsControl.ItemTemplate>
+                                                </ItemsControl>
+                                            </StackPanel>
+                                        </Grid>
+
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="auto"></RowDefinition>
+                                                <RowDefinition Height="*"></RowDefinition>
+                                            </Grid.RowDefinitions>
+                                            <TextBlock Grid.Row="0" Text="Variables:"></TextBlock>
+                                            <StackPanel Grid.Row="1" Orientation="Vertical">
+                                                <ItemsControl ItemsSource="{x:Bind Variable_Collection, Mode=OneWay}">
+                                                   
+                                                    <ItemsControl.ItemTemplate>
+                                                        <DataTemplate x:DataType="FormulaModel:Variable">
+                                                            <Grid>
+                                                                <Grid.Resources>
+                                                                <Style TargetType="TextBlock" BasedOn="{StaticResource TextBlock_DefaultFormat_Theme}"></Style>
+                                                                <Style TargetType="Button" BasedOn="{StaticResource Button_DefaultFormat_Theme}"></Style>
+                                                                <Style TargetType="ScrollViewer" BasedOn="{StaticResource ScrollViewer_DefaultFormat_Theme}"></Style>
+                                                                <Style TargetType="StackPanel" BasedOn="{StaticResource StackPanel_DefaultFormat_Theme}"></Style>
+                                                                <Style TargetType="Controls:WrapPanel" BasedOn="{StaticResource WrapPanel_DefaultFormat_Theme}"></Style>
+                                                                <Style TargetType="Border" BasedOn="{StaticResource Border_DefaultFormat_Theme}"></Style>
+
+                                                                <Style TargetType="TextBox" BasedOn="{StaticResource TextBox_DefaultFormat_Theme}"></Style>
+                                                            </Grid.Resources>
+                                                                <Grid.ColumnDefinitions>
+                                                                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                                                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                                                </Grid.ColumnDefinitions>
+                                                                
+                                                                <Border Grid.Column="0">
+                                                                    <TextBlock Text="{x:Bind VariableIndex, Mode=OneWay}"></TextBlock>
+                                                                </Border>
+                                                                <Border Grid.Column="1">
+                                                                    <TextBlock Grid.Column="1" Text="{x:Bind VariableName, Mode=OneWay}"></TextBlock>
+                                                                </Border>
+                                                                <Controls:GridSplitter Grid.Column="2"></Controls:GridSplitter>
+                                                                <TextBox Grid.Column="3" x:Name="VariableValue_Textbox" PreviewKeyDown="TabKeyDown_Textbox_PreviewKeyDown" BringIntoViewRequested="Textbox_BringIntoViewRequested" Tag="{x:Bind}" PlaceholderText="Variable Value" Text="{x:Bind VariableValue, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" LosingFocus="TextBox_LosingFocus" IsSpellCheckEnabled="False"></TextBox>
+                                                                <Controls:GridSplitter Grid.Column="4"></Controls:GridSplitter>
+                                                                <TextBox Grid.Column="5" x:Name="VariableDescription_Textbox" PreviewKeyDown="TabKeyDown_Textbox_PreviewKeyDown" BringIntoViewRequested="Textbox_BringIntoViewRequested" Tag="{x:Bind}" PlaceholderText="Variable Description" Text="{x:Bind VariableDescription, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" LosingFocus="TextBox_LosingFocus" IsSpellCheckEnabled="False"></TextBox>
+                                                            </Grid>
+                                                        </DataTemplate>
+                                                    </ItemsControl.ItemTemplate>
+                                                </ItemsControl>
+                                            </StackPanel>
+                                        </Grid>
+
+
+                                    </StackPanel>
+                                </StackPanel>
+
+                                <Grid Height="5">
+
+                                </Grid>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

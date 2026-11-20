@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Developers_MathEngine_MVVM" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Developers_MathEngine_MVVM">
+				<ResourceMapSubtree name="Theme">
+					<NamedResource name="DefaultFormat_Theme.xbf" uri="ms-resource://Developers_MathEngine_MVVM/Files/Developers_MathEngine_MVVM/Theme/DefaultFormat_Theme.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="View">
+					<NamedResource name="MainWindow.xbf" uri="ms-resource://Developers_MathEngine_MVVM/Files/Developers_MathEngine_MVVM/View/MainWindow.xbf">
+						<Candidate type="EmbeddedData">
+							<Base64Value>[Embedded Binary Data]</Base64Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="Formula">
+						<NamedResource name="CustomButtonDescription_Page.xbf" uri="ms-resource://Developers_MathEngine_MVVM/Files/Developers_MathEngine_MVVM/View/Formula/CustomButtonDescription_Page.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="CustomButton_Page.xbf" uri="ms-resource://Developers_MathEngine_MVVM/Files/Developers_MathEngine_MVVM/View/Formula/CustomButton_Page.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="FormulaProject_Page.xbf" uri="ms-resource://Developers_MathEngine_MVVM/Files/Developers_MathEngine_MVVM/View/Formula/FormulaProject_Page.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Formula_Page.xbf" uri="ms-resource://Developers_MathEngine_MVVM/Files/Developers_MathEngine_MVVM/View/Formula/Formula_Page.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="Template">
+						<NamedResource name="CustomButtonDescription_Template.xbf" uri="ms-resource://Developers_MathEngine_MVVM/Files/Developers_MathEngine_MVVM/View/Template/CustomButtonDescription_Template.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="Formula_Template.xbf" uri="ms-resource://Developers_MathEngine_MVVM/Files/Developers_MathEngine_MVVM/View/Template/Formula_Template.xbf">
+							<Candidate type="EmbeddedData">
+								<Base64Value>[Embedded Binary Data]</Base64Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

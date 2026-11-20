@@ -9,16 +9,16 @@
   IgnorableNamespaces="uap rescap systemai">
 
   <Identity
-    Name="49f81ed6-d2b3-4608-adb2-56f64e5f6cc8"
-    Publisher="CN=c1_de"
-    Version="1.0.0.0" />
+    Name="22088ArtistCTDigital.DevelopersMathEngine"
+    Publisher="CN=36E2012D-E4BD-4A41-A4D5-D2A8F14C3C7B"
+    Version="1.0.2.0" />
 
-  <mp:PhoneIdentity PhoneProductId="49f81ed6-d2b3-4608-adb2-56f64e5f6cc8" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="bd9b3455-54a1-4084-98ea-8cb348c92924" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Developers_MathEngine</DisplayName>
-    <PublisherDisplayName>c1_de</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <DisplayName>Developer&apos;s Math Engine</DisplayName>
+    <PublisherDisplayName>Chris Vue Software</PublisherDisplayName>
+    <Logo>Assets\Visual Assets Generated\StoreLogo.png</Logo>
   </Properties>
 
   <Dependencies>
@@ -35,13 +35,14 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="Developers_MathEngine"
+        DisplayName="Developer&apos;s Math Engine"
         Description="Developers_MathEngine"
         BackgroundColor="transparent"
-        Square150x150Logo="Assets\Square150x150Logo.png"
-        Square44x44Logo="Assets\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        Square150x150Logo="Assets\Visual Assets Generated\Square150x150Logo.png"
+        Square44x44Logo="Assets\Visual Assets Generated\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\Visual Assets Generated\Wide310x150Logo.png"  Square310x310Logo="Assets\Visual Assets Generated\LargeTile.png" Square71x71Logo="Assets\Visual Assets Generated\SmallTile.png">
+        </uap:DefaultTile >
+        <uap:SplashScreen Image="Assets\Visual Assets Generated\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
   </Applications>

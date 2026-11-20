@@ -44,13 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.TestPlatform.TestHost" Version="18.8.1" />
-    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.28000.2526" />
-    <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.3.1" />
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.28000.2705" />
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="2.5.1" />
     <PackageReference Include="MSTest.TestAdapter" Version="4.3.3" />
     <PackageReference Include="MSTest.TestFramework" Version="4.3.3" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Developers_MathEngine_Library\Developers_MathEngine_Library.csproj" />
+    <ProjectReference Include="..\Developers_MathEngine_MVVM\Developers_MathEngine_MVVM.csproj" />
   </ItemGroup>
 
   <!-- 
