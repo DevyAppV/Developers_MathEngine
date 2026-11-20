@@ -11,8 +11,7 @@
 
 <H1>Developer's Math Engine (C#, WinUI)</H1>
 <p>This application is in progress.  The parser or interpreter from the library only includes /, *, +, -. The division is not fully functional. 
-  Since this app can calculate numbers to infinite, divisions with repeating decimal numbers can cause an error (because it will repeat to infinity, beyond a computer's memory). Also, the power sign is not accurate yet.
-Also, large numbers can slow down the calculation.</p>
+  Since this app can calculate numbers to infinite, divisions with repeating decimal numbers can cause an error (because it will repeat to infinity, beyond a computer's memory). Also, the power sign is not accurate yet and large numbers can slow down the calculation.</p>
 
 <HR>
 <H2>Roadmap ? - Graphing Calculator Feature</H2>
