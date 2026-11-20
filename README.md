@@ -5,6 +5,9 @@
 <h2>Store App: ms-windows-store://pdp/?productid=9MVR48XJT3J8</h2>
 <a href="https://apps.microsoft.com/detail/9MVR48XJT3J8">Store URL</a>
 
+<H1>Learn</H1>
+<a href="https://www.youtube.com/watch?v=8JEXLxQdxTg&list=PLdX64YJhDxgc&index=11"></a>
+
 <p><aside>
   <b>Bugs:</b>  Be careful of possible bugs.  May produce math errors.
 </aside></p>
