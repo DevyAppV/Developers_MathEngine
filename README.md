@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 <H1>Update:  The repository is now public and in progress again.</H1>
 
 <H1>The developer's math engine is available in the Microsoft Store</H1>
 <h2>Store App: ms-windows-store://pdp/?productid=9MVR48XJT3J8</h2>
 <a href="https://apps.microsoft.com/detail/9MVR48XJT3J8">Store URL</a>
 
+
+<p><aside>
+  <b>Bugs:</b>  Be careful of possible bugs.  May produce math errors.
+</aside></p>
+
+>>>>>>> 46a97c50b70eb0504f91c7afa279d2a4cd3f2f3f
 <H1>Developer's Math Engine (C#, WinUI)</H1>
 <p>This application is in progress.  The parser or interpreter from the library only includes /, *, +, -. The division is not fully functional. 
   Since this app can calculate numbers to infinite, divisions with repeating decimal numbers can cause an error (because it will repeat to infinity, beyond a computer's memory). Also, the power sign is not accurate yet.
